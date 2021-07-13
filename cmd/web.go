@@ -35,7 +35,7 @@ and it takes care of all the other things for you`,
 	Flags: []cli.Flag{
 		cli.StringFlag{
 			Name:  "port, p",
-			Value: "3000",
+			Value: "80",
 			Usage: "Temporary port number to prevent conflict",
 		},
 		cli.StringFlag{
